@@ -7,7 +7,7 @@ No personal data, no server paths, no keys: drop a folder into your agent's skil
 | Skill | What it does | Needs |
 |-------|--------------|-------|
 | `image-edit` | Edit pictures: remove background, cut out a person, overlay, straighten, move, resize | Pillow, numpy; rembg optional |
-| `image-gen` | Generate pictures (covers, logos, illustrations, avatars) via an image model | OpenAI-compatible image API key |
+| `image-gen` | Generate pictures (covers, logos, illustrations, avatars) via an image model | the image provider configured in Hermes Agent (`hermes auth codex` or an OpenAI key) |
 | `decks-and-docs` | Build .pptx decks and .docx / .pdf documents from plain text | python-pptx, python-docx, reportlab |
 
 ## Install
